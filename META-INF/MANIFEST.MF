@@ -1,0 +1,266 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: OSGi/Minimum-1.0,CDC-1.0/Foundati
+ on-1.0
+Bundle-SymbolicName: ch.ethz.iks.r_osgi.remote
+Eclipse-LazyStart: true
+Bundle-Activator: ch.ethz.iks.r_osgi.impl.RemoteOSGiActivator
+Bundle-Version: 1.0.0.RC4_v20090616-0832
+Export-Package: ch.ethz.iks.r_osgi;version="1.0.0.RC4",
+ ch.ethz.iks.r_osgi.channels;version="1.0.0.RC4",
+ ch.ethz.iks.r_osgi.impl,
+ ch.ethz.iks.r_osgi.messages;version="1.0.0.RC4",
+ ch.ethz.iks.r_osgi.service_discovery;version="1.0.0.RC4",
+ ch.ethz.iks.r_osgi.types;version="1.0.0.RC4",
+ ch.ethz.iks.util;version="1.0.0.RC4"
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %plugin.provider
+Bundle-Name: %plugin.name
+Created-By: 10.0-b19 (Sun Microsystems Inc.)
+DynamicImport-Package: *
+Import-Package: org.objectweb.asm;version="3.1.0",
+ org.osgi.framework,
+ org.osgi.service.event,
+ org.osgi.service.log,
+ org.osgi.service.packageadmin,
+ org.osgi.util.tracker
+Bundle-ManifestVersion: 2
+
+Name: ch/ethz/iks/r_osgi/impl/ChannelEndpointImpl$EventForwarder.class
+SHA1-Digest: qnZdWXTLdISRdvMvY12+Oclx7/g=
+
+Name: ch/ethz/iks/r_osgi/channels/NetworkChannel.class
+SHA1-Digest: N7IfOkzZB/3EdOTNx+7Odx26tbM=
+
+Name: ch/ethz/iks/r_osgi/messages/RemoteCallMessage.class
+SHA1-Digest: Z4lmR4+CZOgcNcPKwew8mKRKfv8=
+
+Name: ch/ethz/iks/r_osgi/messages/RemoteEventMessage.class
+SHA1-Digest: A25BSSBDFBUocMwoNziocYKYSFM=
+
+Name: ch/ethz/iks/r_osgi/impl/ChannelEndpointMultiplexer$Mapping.class
+SHA1-Digest: tK3Xpf6RUAViL5qNCMeYvKIjx3Q=
+
+Name: ch/ethz/iks/util/MathUtils.class
+SHA1-Digest: BUgL4hqmYy2VOE8aLU4NiT49kNA=
+
+Name: ch/ethz/iks/r_osgi/messages/TimeOffsetMessage.class
+SHA1-Digest: 7ekd8ZTU+o9z5Qb85SZbbDjyn+o=
+
+Name: ch/ethz/iks/r_osgi/SmartProxy.class
+SHA1-Digest: j8fXSwCTigQIYRo5JwMaDKnWsZc=
+
+Name: ch/ethz/iks/r_osgi/impl/CodeAnalyzer$MethodAnalyzer.class
+SHA1-Digest: mxsQV5/1DUPwRUDFNAaauwhuxAQ=
+
+Name: ch/ethz/iks/r_osgi/service_discovery/ServiceDiscoveryHandler.cla
+ ss
+SHA1-Digest: txV7fAtDGD8HeVOIGc29geAJvAg=
+
+Name: ch/ethz/iks/r_osgi/impl/AsyncCallback.class
+SHA1-Digest: Nt4SC/5/74TcEMWqDVxnZyOOfg0=
+
+Name: ch/ethz/iks/r_osgi/types/BoxedPrimitive.class
+SHA1-Digest: 5kzFWoqf9TW8yFF1v9OZMm3OAqo=
+
+Name: ch/ethz/iks/r_osgi/messages/LeaseUpdateMessage.class
+SHA1-Digest: R2Glq3Ja13rkDQS+tVtsOCNmP2E=
+
+Name: ch/ethz/iks/r_osgi/impl/ChannelEndpointImpl$WaitingCallback.clas
+ s
+SHA1-Digest: yzqEBOUr/TFWTf7u/O5bx/vwEa4=
+
+Name: ch/ethz/iks/r_osgi/messages/RemoteOSGiMessage.class
+SHA1-Digest: LIinMOXvu3x/TYa0w83B3DM4W3M=
+
+Name: ch/ethz/iks/r_osgi/URI.class
+SHA1-Digest: jlXjn+LWalseyKMNxT+ncxZ+7l0=
+
+Name: ch/ethz/iks/r_osgi/channels/ChannelEndpoint.class
+SHA1-Digest: 8Tk2C3pVAZjEtfcgSrTf14zc3Mk=
+
+Name: ch/ethz/iks/r_osgi/impl/TCPChannelFactory$TCPChannel.class
+SHA1-Digest: hGfCeVxyODiz0/35NaMI4mYz5C8=
+
+Name: ch/ethz/iks/util/StringUtils.class
+SHA1-Digest: XwAocRWZy46lOzM09cOZfCsMlLE=
+
+Name: ch/ethz/iks/r_osgi/RemoteServiceReference.class
+SHA1-Digest: VIosWcwcI5xuBhHVvJbU7rr2ybM=
+
+Name: ch/ethz/iks/r_osgi/messages/LeaseMessage.class
+SHA1-Digest: +q3UdxPtcYlCkfY8m04B2hI+aZU=
+
+Name: ch/ethz/iks/r_osgi/SurrogateRegistration.class
+SHA1-Digest: mYd6WrUBoyqLwQiSzWla1J8TINQ=
+
+Name: ch/ethz/iks/r_osgi/messages/RequestDependenciesMessage.class
+SHA1-Digest: aiCXvLs1sT5MV4eMRYmmN+Poh8c=
+
+Name: LICENSE.txt
+SHA1-Digest: o3iEMeXFriX83EL/lJ/Ln0hEs+s=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: mMu9B1RvBNqGYnDx5LUCAyUTzv4=
+
+Name: ch/ethz/iks/r_osgi/messages/RemoteCallResultMessage.class
+SHA1-Digest: 5JzyKFoN8m0JlmuyFaguEen2mHA=
+
+Name: ch/ethz/iks/util/SmartObjectOutputStream.class
+SHA1-Digest: 59pn4QCAOaJzGN62bmXD+1My4Ug=
+
+Name: ch/ethz/iks/r_osgi/messages/StreamRequestMessage.class
+SHA1-Digest: JU1kVDXFVoTS7Ijn0U3X2aoyRpw=
+
+Name: ch/ethz/iks/r_osgi/impl/RemoteOSGiServiceImpl$1.class
+SHA1-Digest: 0XwRVh5I5FLv9pornU7/ePy8cS4=
+
+Name: ch/ethz/iks/r_osgi/impl/ChannelEndpointImpl.class
+SHA1-Digest: s/zBExAGZ7Ox/4YErfX5x/Lkxz8=
+
+Name: ch/ethz/iks/r_osgi/impl/RemoteOSGiServiceImpl$3.class
+SHA1-Digest: kzEjxeDKf+5m4XUEFBHEvfUqx7A=
+
+Name: ch/ethz/iks/r_osgi/RemoteServiceEvent.class
+SHA1-Digest: RjE7mz7mRExt9cXYUAd+HJi25ZE=
+
+Name: ch/ethz/iks/r_osgi/types/Timestamp.class
+SHA1-Digest: nV8yCmKcI6VDWzfVLHbMGlh+cR0=
+
+Name: ch/ethz/iks/r_osgi/impl/CodeAnalyzer.class
+SHA1-Digest: 4We2T0sgdGwJV64mhbAZ7JzBKas=
+
+Name: ch/ethz/iks/r_osgi/AsyncRemoteCallCallback.class
+SHA1-Digest: Ex+lJWnTvAwkXHdumivg2raMZV8=
+
+Name: ch/ethz/iks/util/Scheduler.class
+SHA1-Digest: EtnJkdsX/yOEB8PO9OCAildzPKw=
+
+Name: ch/ethz/iks/r_osgi/impl/ChannelEndpointImpl$1.class
+SHA1-Digest: waXM5e0XpezbK9SeuhqXTrHKgeo=
+
+Name: ch/ethz/iks/r_osgi/channels/NetworkChannelFactory.class
+SHA1-Digest: 4P8duTpnPjDhVLvG0fakqAP0RJU=
+
+Name: ch/ethz/iks/r_osgi/impl/RemoteServiceReferenceImpl.class
+SHA1-Digest: 9ERUgrF27Wt7QbpwyuRTRHnfl0c=
+
+Name: ch/ethz/iks/r_osgi/service_discovery/ServiceDiscoveryListener.cl
+ ass
+SHA1-Digest: yCLA8QgiicOTtDJCzrOqNQ8j8Ao=
+
+Name: ch/ethz/iks/r_osgi/impl/ChannelEndpointImpl$3.class
+SHA1-Digest: 7cuxpP9+opr7giA+U5oOQLAtKKA=
+
+Name: ch/ethz/iks/r_osgi/impl/TCPChannelFactory.class
+SHA1-Digest: 35CM2zZefowuDqHhoC/FugQ7UXE=
+
+Name: ch/ethz/iks/r_osgi/impl/RemoteOSGiActivator.class
+SHA1-Digest: 02KpjeptMTA75ZdnDvrLHYg6AZs=
+
+Name: ch/ethz/iks/r_osgi/impl/TimeOffset.class
+SHA1-Digest: QT/Yi8Y1wmDolwMC6w4BNmEjqwI=
+
+Name: ch/ethz/iks/r_osgi/impl/ProxyGenerator.class
+SHA1-Digest: tL3YhQYAX9F6y4MXwvVZHR7GpTA=
+
+Name: ch/ethz/iks/r_osgi/streams/InputStreamHandle.class
+SHA1-Digest: IjMZrNuphCyZdNZlGLqEp7RFnLU=
+
+Name: plugin.properties
+SHA1-Digest: jEdmvCE7m6Mhyhda/1nSam4Fy4I=
+
+Name: ch/ethz/iks/r_osgi/impl/TCPChannelFactory$TCPAcceptorThread.clas
+ s
+SHA1-Digest: ZVUInlog/Jrysmxq8UQ3cSS6f8U=
+
+Name: ch/ethz/iks/r_osgi/RemoteServiceListener.class
+SHA1-Digest: wI4iLS8CeFOT/bQoNOida60E6A4=
+
+Name: ch/ethz/iks/util/SmartObjectInputStream.class
+SHA1-Digest: quskpbvNdKnxiFXHJ+IhwXdN4AA=
+
+Name: ch/ethz/iks/r_osgi/RemoteOSGiService.class
+SHA1-Digest: Yz37JSjbqNIuj9FiXK1TdzivoCw=
+
+Name: ch/ethz/iks/r_osgi/impl/RemoteServiceRegistration.class
+SHA1-Digest: KYWXei6rFpQxfLpgm8G9mq2B588=
+
+Name: ch/ethz/iks/r_osgi/impl/RemoteOSGiServiceImpl.class
+SHA1-Digest: steMlWORz/yKM+wnD6vXiuc43pc=
+
+Name: ch/ethz/iks/util/Scheduler$ScheduleThread.class
+SHA1-Digest: JFeUjREYugt+f9OcBF6G+S9TX5c=
+
+Name: ch/ethz/iks/util/ScheduleListener.class
+SHA1-Digest: CdJSodVTP83lMOsEBeDhHvOYti4=
+
+Name: ch/ethz/iks/r_osgi/streams/OutputStreamProxy.class
+SHA1-Digest: y4YdS77h6HuFuvDXY5a5V8woprg=
+
+Name: ch/ethz/iks/r_osgi/messages/RequestServiceMessage.class
+SHA1-Digest: pB+e82ws2zdpH2ptgLyJMIVJ+Kc=
+
+Name: ch/ethz/iks/r_osgi/streams/InputStreamProxy.class
+SHA1-Digest: Q/2rICl10L+3TanAB+hvRQE6eBk=
+
+Name: ch/ethz/iks/r_osgi/channels/ChannelEndpointManager.class
+SHA1-Digest: RQblEf9O5if5GQQBfl4OUVrDRuc=
+
+Name: ch/ethz/iks/r_osgi/Remoting.class
+SHA1-Digest: 0PZL39DvOg4helWVOdHhYzKgMpg=
+
+Name: ch/ethz/iks/r_osgi/streams/OutputStreamHandle.class
+SHA1-Digest: NjclQsGC07awd3lgxjieD9b+UZE=
+
+Name: ch/ethz/iks/r_osgi/messages/RequestBundleMessage.class
+SHA1-Digest: OrAz6pB/oAhc+vNWYgV4EzHnHQw=
+
+Name: ch/ethz/iks/r_osgi/messages/StreamResultMessage.class
+SHA1-Digest: n6b3vQ5WCKvrQ3Oc5zUAoaolFhs=
+
+Name: about.html
+SHA1-Digest: 3XRL22jqbLabCd5fQCPEYKn8nIw=
+
+Name: ch/ethz/iks/r_osgi/impl/RemoteOSGiServiceImpl$2.class
+SHA1-Digest: MKeO1aA1rkpe/wltiiTzfc9IjK4=
+
+Name: ch/ethz/iks/r_osgi/types/ServiceUIComponent.class
+SHA1-Digest: M8DFPvSgDHg/gAyigAb5FjW/q1g=
+
+Name: ch/ethz/iks/r_osgi/impl/RemoteOSGiServiceImpl$4.class
+SHA1-Digest: GuUg7ivm8LUp+hXMH9tItUpeOjU=
+
+Name: ch/ethz/iks/util/CollectionUtils.class
+SHA1-Digest: IiAgDeQhFPEjXFc77rJ7LUr101o=
+
+Name: ch/ethz/iks/r_osgi/RemoteOSGiException.class
+SHA1-Digest: gYFFin94GpobaHZuP69tBojcsSo=
+
+Name: ch/ethz/iks/r_osgi/impl/TCPChannelFactory$TCPChannel$ReceiverThr
+ ead.class
+SHA1-Digest: Z44lUb8Qvv9Gqwz5f/LKzOJB3Ag=
+
+Name: ch/ethz/iks/r_osgi/messages/DeliverServiceMessage.class
+SHA1-Digest: oRqV2UckQ0Mc2hHNNqY1sKNDt8Y=
+
+Name: ch/ethz/iks/util/SmartConstants.class
+SHA1-Digest: 5CrJbQ9DuFMltUTRwqW/RDrXMK8=
+
+Name: ch/ethz/iks/r_osgi/impl/ChannelEndpointImpl$2.class
+SHA1-Digest: 5O4e1QXG1KOUcXlb2ErWMizCDXQ=
+
+Name: ch/ethz/iks/r_osgi/impl/ProxyGenerator$MethodRewriter.class
+SHA1-Digest: NKH1z8ci/ENVxiJNIGsapo+5pr0=
+
+Name: ch/ethz/iks/r_osgi/impl/ChannelEndpointMultiplexer.class
+SHA1-Digest: +lv1C3qE5LjwmLRJRU4iEpX5OiQ=
+
+Name: ch/ethz/iks/r_osgi/messages/DeliverBundlesMessage.class
+SHA1-Digest: RPBc3rdLzdFu4cctKhFDeAAcm60=
+
+Name: ch/ethz/iks/r_osgi/impl/ProxyGenerator$ClassRewriter.class
+SHA1-Digest: g7qvGszqg5O7IjO/Q+FqKzy9O5M=
+
