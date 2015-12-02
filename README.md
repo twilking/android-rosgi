@@ -1,3 +1,3 @@
 Eclipse Project
 
-This Project integrates the Android dx tool for converting generated Bundles by ROSGi to dex byte code. So they can be used in an OSGi framework on the Android Plattform. For example in Apache Felix. 
+This Project integrates the Android dx tool for converting generated bundles by ROSGi to dex byte code. So they can be used in an OSGi framework on the Android Plattform. For example with Apache Felix. This Project builds an OSGi Bundle. You have to convert this bundle to dex bytecode aswell with the Android dx tool.
